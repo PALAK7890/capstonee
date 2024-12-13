@@ -1,0 +1,172 @@
+@font-face {
+    font-family: "dot";
+    src: url(DotGothic16/DotGothic16-Regular.ttf);
+}
+@font-face {
+    font-family: "archio";
+    src: url(Archivo/Archivo-VariableFont_wdth\,wght.ttf);
+}
+nav  {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(36, 25, 243, 0.06);
+    padding: 24px 32px;
+    border: 1px;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px 0px rgb(190, 190, 190);
+    align-items: center;
+
+
+}
+.main{
+    padding: 96px 0px;
+}
+.buttons{
+    display: flex;
+    gap: 8px;
+    font-family: 'archio';
+
+}
+.heading{
+    font-family: 'dot';
+    font-weight: 400px;
+    font-size: 42px;
+}
+.contact{
+    font-family: 'archio';
+}
+.header{
+    width: 100%;
+    justify-content: center;
+}
+
+.welcome{
+    font-family: 'dot';
+    font-weight: 400px;
+    font-size: 8vw;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: -2%;
+    
+}
+.big-img{
+    width: 1344px;
+    height: 672px;
+    border: 1px;
+    margin: 0 0 0 40px;
+   
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 8px;
+    width: 100%;
+    row-gap: 48px;
+    margin: 25px;
+    
+
+}
+.instruction{
+    display: grid;
+    gap: 32px;
+    width: 100%;
+    justify-items: center;
+
+    
+}
+.getintouch{
+    font-family: 'dot';
+    font-weight: 400px;
+    font-size: 28px;
+    text-align: center;
+    line-height: 32px;
+
+}
+.text{
+    font-family: 'archio';
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+
+}
+.button{
+    background-color:rgba(36, 25, 243, 1) ;
+    padding: 8px 16px;
+    border-radius: 8px;
+    width: 400px;
+    height: 36px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'archio';
+}
+.foot{
+    font-family: 'dot';
+    font-size: 28px;
+    line-height: 32px;
+
+
+}
+.back{
+    padding: 12px 24px;
+    border-radius: 8px;
+    width: 136px;
+    height: 48px;
+    border: solid 1px;
+    align-items: end;
+    margin-right: 5%;;
+    margin-left: auto;
+
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+}
+.in{
+    padding: 8px 16px;
+    border: 1px solid;
+    border-radius: 8px;
+    width: 56px;
+    height: 64px;
+}
+#fname{
+    width: 56px;
+    height:64px ;
+    margin-left: 8px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 8px;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.skip{
+    width: 26px;
+    height: 20px;
+    font-family: 'archio';
+    font-weight: 500px;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(36, 25, 243, 1);
+}
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.image-name{
+    font-family: 'archio';
+    font-weight: 400px;
+    font-size: 2vw;
+    line-height: 24px;
+}
+.image-desc{
+    font-family: 'archio';
+    font-weight: 400px;
+    font-size: 1vw;
+    line-height: 24px;
+}
+.biggg{
+    padding: 200px;
+}
